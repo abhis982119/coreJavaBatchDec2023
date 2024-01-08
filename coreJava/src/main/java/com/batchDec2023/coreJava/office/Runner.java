@@ -16,7 +16,7 @@ public class Runner {
         students.add(naresh);
         students.add(mahikshit);
 
-
+     
         List<Student> copyStudents = new ArrayList<>();
          for(Student student : students){
              copyStudents.add(student.clone());
@@ -25,7 +25,6 @@ public class Runner {
 
 
          List<Student> cStudent = students.stream().map(Student::clone).collect(Collectors.toList());
-
 
     }
 
