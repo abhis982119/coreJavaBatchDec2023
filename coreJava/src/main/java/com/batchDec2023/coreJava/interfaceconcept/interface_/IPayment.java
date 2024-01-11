@@ -8,10 +8,7 @@ Default:
  */
 public interface IPayment  {
 
-     int a  = 2;
-
-
-     public  abstract  void doPayment();
+     public abstract void doPayment();
 }
 
 
