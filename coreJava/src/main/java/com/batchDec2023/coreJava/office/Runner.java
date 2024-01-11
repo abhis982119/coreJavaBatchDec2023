@@ -15,7 +15,6 @@ public class Runner {
         List<Student> students = new ArrayList<>();
         students.add(naresh);
         students.add(mahikshit);
-
      
         List<Student> copyStudents = new ArrayList<>();
          for(Student student : students){
