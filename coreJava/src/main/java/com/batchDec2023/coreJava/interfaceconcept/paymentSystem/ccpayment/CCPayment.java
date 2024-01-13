@@ -2,13 +2,9 @@ package com.batchDec2023.coreJava.interfaceconcept.paymentSystem.ccpayment;
 
 import com.batchDec2023.coreJava.interfaceconcept.interface_.IPayment;
 
-import java.io.Serializable;
-import java.util.ArrayList;
-
 public  abstract class CCPayment implements IPayment {
 
-
-    public void getCCDetails(){
+    public final void getCCDetails() {
         System.out.println("CC details fetched ");
     }
 
@@ -21,7 +17,6 @@ public  abstract class CCPayment implements IPayment {
         redirectToGateway();
         readResponseFromGateway();
     }
-
 
     public abstract void redirectToGateway();
 

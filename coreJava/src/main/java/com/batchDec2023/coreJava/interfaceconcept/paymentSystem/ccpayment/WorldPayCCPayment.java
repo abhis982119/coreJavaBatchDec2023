@@ -5,7 +5,7 @@ public class WorldPayCCPayment extends CCPayment{
 
     @Override
     public void redirectToGateway() {
-        System.out.println("redirected to WORLD PAY Ngateway ");
+        System.out.println("redirected to WORLD PAY gateway ");
     }
 
     @Override
