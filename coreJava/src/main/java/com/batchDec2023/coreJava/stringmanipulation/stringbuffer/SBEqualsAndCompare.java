@@ -22,5 +22,7 @@ public class SBEqualsAndCompare {
         System.out.println(sb1.equals(s2)); //false
 
 
+
+
     }
 }
