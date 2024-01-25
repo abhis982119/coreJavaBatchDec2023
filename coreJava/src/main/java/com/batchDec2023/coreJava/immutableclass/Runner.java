@@ -22,7 +22,14 @@ public class Runner {
         System.out.println("student " + student);
       /*  print(myStudent);*/
 
+        System.out.println();
 
+        System.out.println("*****Shallow cloning below ******");
+
+        System.out.println("cloned student class : " + cloned.getMyClass());
+        System.out.println("student class : " + student.getMyClass());
+
+        System.out.println("*****Shallow cloning below ******");
 
 
 

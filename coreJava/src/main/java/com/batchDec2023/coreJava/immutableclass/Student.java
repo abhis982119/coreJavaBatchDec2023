@@ -1,12 +1,14 @@
 package com.batchDec2023.coreJava.immutableclass;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 
 import java.util.*;
 
+@Getter
 
 public final class Student implements Cloneable {
-    Collection
+
     private final  String rollNumber;
 
     private MyClass myClass = new MyClass();
@@ -23,5 +25,6 @@ public final class Student implements Cloneable {
     @Override
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();
+       // return new Student(this.rollNumber);
     }
 }
