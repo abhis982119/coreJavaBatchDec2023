@@ -12,11 +12,12 @@ public class Runner {
         A a2 = new A();
         A a3 = new A();
 
-        CompletableFuture.runAsync(() -> a.m1());  // not dependent
-        CompletableFuture.runAsync(() -> a.m1()); // not dependent
+        CompletableFuture.runAsync(() -> a.m1());
+        CompletableFuture.runAsync(() -> a.m1());
         CompletableFuture.runAsync(() -> a.m2());
         CompletableFuture.runAsync(() -> a2.m2());
         CompletableFuture.runAsync(() -> a3.m2());
+        CompletableFuture.runAsync(() -> a.m2());  // will wait() for lock on a object synchronized area
 
         Thread.sleep(11000);
 
