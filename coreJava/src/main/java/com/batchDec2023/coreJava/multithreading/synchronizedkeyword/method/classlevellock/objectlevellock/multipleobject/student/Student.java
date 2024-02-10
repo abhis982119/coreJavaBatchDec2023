@@ -1,4 +1,4 @@
-package com.batchDec2023.coreJava.multithreading.synchronizedkeyword.objectlevellock.multipleobject.student;
+package com.batchDec2023.coreJava.multithreading.synchronizedkeyword.method.classlevellock.objectlevellock.multipleobject.student;
 
 import lombok.Builder;
 import lombok.Getter;

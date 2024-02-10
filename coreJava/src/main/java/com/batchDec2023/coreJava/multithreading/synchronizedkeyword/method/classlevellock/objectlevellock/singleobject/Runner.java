@@ -1,4 +1,4 @@
-package com.batchDec2023.coreJava.multithreading.synchronizedkeyword.objectlevellock.singleobject;
+package com.batchDec2023.coreJava.multithreading.synchronizedkeyword.method.classlevellock.objectlevellock.singleobject;
 
 public class Runner {
 

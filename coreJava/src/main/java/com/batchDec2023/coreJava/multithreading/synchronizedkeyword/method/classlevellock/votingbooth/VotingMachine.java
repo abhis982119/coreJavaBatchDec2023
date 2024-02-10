@@ -1,4 +1,4 @@
-package com.batchDec2023.coreJava.multithreading.synchronizedkeyword.votingbooth;
+package com.batchDec2023.coreJava.multithreading.synchronizedkeyword.method.classlevellock.votingbooth;
 
 import lombok.Getter;
 

@@ -1,4 +1,4 @@
-package com.batchDec2023.coreJava.multithreading.synchronizedkeyword.objectlevellock.multipleobject;
+package com.batchDec2023.coreJava.multithreading.synchronizedkeyword.method.classlevellock.objectlevellock.singleobject;
 
 import lombok.SneakyThrows;
 
