@@ -18,5 +18,4 @@ public class Student {
         return Student.builder().name(name).rollNumber(rollNumber).build();
     }
 
-
 }
