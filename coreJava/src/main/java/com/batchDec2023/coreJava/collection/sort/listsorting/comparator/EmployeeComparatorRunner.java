@@ -33,6 +33,5 @@ public class EmployeeComparatorRunner {
 
         //       Collections.sort(employees, Comparator.comparing(Employee::getName));
         System.out.println(employees);
-
     }
 }
