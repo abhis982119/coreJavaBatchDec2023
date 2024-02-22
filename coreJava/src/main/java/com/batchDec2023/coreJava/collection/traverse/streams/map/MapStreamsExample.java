@@ -1,6 +1,8 @@
 package com.batchDec2023.coreJava.collection.traverse.streams.map;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class MapStreamsExample {
@@ -14,6 +16,10 @@ public class MapStreamsExample {
         cities.put("India","New Delhi");  //update
 
 
+        for(Map.Entry<String, String> entry  :cities.entrySet()){
+            System.out.println(entry);
+        }
+
         cities.entrySet().forEach(System.out::println);
 
         cities.keySet().forEach(System.out::println);
@@ -22,6 +28,9 @@ public class MapStreamsExample {
 
 
         cities.entrySet().stream().forEach(System.out::println);
+
+        List<String> list = new ArrayList<>();
+
         
 
     }

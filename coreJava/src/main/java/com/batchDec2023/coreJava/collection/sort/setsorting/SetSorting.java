@@ -17,8 +17,6 @@ public class SetSorting {
         Set<Student> setStudents = new HashSet<>(students);
 
 
-
-
         Set<Integer> intSet = new HashSet<>(Arrays.asList(3,2,1));
         List<Integer> intList = new ArrayList<>(intSet);
         Collections.sort(intList);
