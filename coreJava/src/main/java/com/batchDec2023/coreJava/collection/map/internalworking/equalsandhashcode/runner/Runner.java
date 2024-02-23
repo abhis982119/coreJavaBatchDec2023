@@ -1,11 +1,9 @@
 package com.batchDec2023.coreJava.collection.map.internalworking.equalsandhashcode.runner;
 
+import com.batchDec2023.coreJava.collection.map.internalworking.equalsandhashcode.model.Proctor;
 import com.batchDec2023.coreJava.collection.map.internalworking.equalsandhashcode.model.Student;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class Runner {
 
